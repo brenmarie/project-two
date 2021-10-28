@@ -4,19 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <script src="./js/main.js" defer></script>
     <title>Home</title>
   </head>
-  <body>
-    <nav>
-      <a href="./">Home</a>
+  <body class="home-body">
+    <nav class="navbar">
+      <a href="./">COVID-19 VACCINES</a>
+      <button><span class="material-icons">menu</span></button>
       <ul>
-        <li><a href="./1.htm"></a></li>
-        <li><a href="./2.html"></a></li>
-        <li><a href="./3.html"></a></li>
+        <li><a href="./1.html">False Barriers</a></li>
+        <li><a href="./2.html">Distribution</a></li>
+        <li><a href="./3.html">FAQs</a></li>
       </ul>
     </nav>
+    <article class="home-heading">
+      <img
+        src="images/mask-and-vaccines.jpeg"
+        alt="Mask and COVID-19 Vaccinces"
+      />
+      <div>
+        <h1>What You Need to Know About Getting a COVID-19 Vaccine</h1>
+      </div>
+    </article>
+    <article class="home-body-1">
+      <h1>Vaccinating America</h1>
+      <p>
+        As the United States seeks to end its coronavirus crisis and outrun
+        variants, public health officials recognize it is essential for as many
+        people as possible to get vaccinated. Making that easy is a major part
+        of the plan. According to the Coronavirus Aid, Relief, and Economic
+        Security Act, the vaccine is supposed to be free to everyone, whether
+        they’re insured or not. And the Biden administration has directed all
+        vaccination sites to accept undocumented immigrants as a “moral and
+        public health imperative.”
+      </p>
+    </article>
+
+    <section class="icon-buttons">
+      <li>
+        <a href="./1.html">
+          <img src="images/vaccine-icon.png" alt="COVID-19 and Vaccine Icon" />
+          <p>Getting the Vaccine</p>
+        </a>
+      </li>
+      <li>
+        <a href="./2.html">
+          <img src="images/truck-icon.png" alt="Truck Icon" />
+          <p>Distribution</p>
+        </a>
+      </li>
+      <li>
+        <a href="./3.html">
+          <img src="images/faq-icon.png" alt="Question Mark Icon" />
+          <p>FAQs</p>
+        </a>
+      </li>
+    </section>
+
+    <footer class="home-footer">
+      <p>Brennan Day</p>
+      <a href="https://github.com/brenmarie/project-two"
+        >https://github.com/brenmarie/project-two</a
+      >
+    </footer>
   </body>
 </html>
