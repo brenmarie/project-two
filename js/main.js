@@ -6,3 +6,12 @@ function toggle() {
 }
 
 button.addEventListener("click", toggle);
+
+var accordions = document.querySelectorAll(".accordion");
+var i;
+
+for (i = 0; i < accordions.length; i++) {
+  accordions[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+}
