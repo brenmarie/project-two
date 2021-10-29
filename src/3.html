@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/reset.css" />
@@ -19,9 +19,9 @@
     <script src="./js/main.js" defer></script>
     <title>3</title>
   </head>
-  <body>
+  <body class="page-3-body">
     <nav class="navbar">
-      <a href="./">COVID-19 VACCINES</a>
+      <a class="title" href="./">COVID-19 VACCINES</a>
       <button><span class="material-icons">menu</span></button>
       <ul>
         <li><a href="./1.html">False Barriers</a></li>
@@ -29,29 +29,91 @@
         <li><a href="./3.html">FAQs</a></li>
       </ul>
     </nav>
+    <div class="page-3-body-content">
+      <section class="page-3-image">
+        <img
+          src="images/not-today-covid19-sign-crop.jpeg"
+          alt="'Not Today COVID 19 Sign'"
+        />
+      </section>
 
-    <section class="Page 3 Image">
-      <img
-        src="images/not-today-covid19-sign.jpeg"
-        alt="'Not Today COVID 19 Sign'"
-      />
-    </section>
+      <article class="page-3-text">
+        <h2>Common Questions About COVID-19</h2>
+        <p>
+          Since the pandemic has begun, there has been much confusion about
+          COVID-19 and the Vaccine. A lot of false information has circulated
+          through the media about the pandemic. Many people who believe the lies
+          in the media don't get the vaccine and don't understand how dangerous
+          the pandemic is. Down below are some frequently asked questions about
+          the vaccine. Many of these questions address common misconceptions.
+        </p>
+      </article>
 
-    <article class="Page 3 Boby 1">
-      <h2>Common Questions About COVID-19</h2>
-      <p>
-        Since the pandemic has begun, there has been much confusion about
-        COVID-19 and the Vaccine. A lot of false information has circulated
-        through the media about the pandemic. Many people who believe the lies
-        in the media don't get the vaccine and don't understand how dangerous
-        the pandemic is. Down below are some frequently asked questions about
-        the vaccine. Many of these questions address common misconceptions.
-      </p>
-    </article>
+      <article class="page-3-faqs">
+        <button class="accordion">
+          <p>
+            Can I get a COVID-19 vaccine even though I don't have a social
+            security number?
+          </p>
+        </button>
+        <div class="panel">
+          <p>
+            Yes, you can get a COVID-19 vaccine without a social security
+            number. You do not have to be a citizen of the U.S.A to recieve a
+            COVID-19 vaccine.
+          </p>
+        </div>
 
-    <footer class="Home Footer">
+        <button class="accordion">
+          <p>Which COVID-19 vaccine should I get?</p>
+        </button>
+        <div class="panel">
+          <p>
+            All COVID-19 vaccines are effective, so it does not matter which one
+            you get. It also depends on what type of COVID-19 vaccines your
+            provider has.
+          </p>
+        </div>
+
+        <button class="accordion">
+          <p>Do I have to pay for a COVID-19 vaccine?</p>
+        </button>
+        <div class="panel">
+          <p>
+            No, all COVID-19 vaccinces are free. It is illegal to charge someone
+            for a COVID-19 vaccine
+          </p>
+        </div>
+
+        <button class="accordion">
+          <p>Where can I get a COVID-19 vaccine?</p>
+        </button>
+        <div class="panel">
+          <p>
+            Many health care facilities and pharmacies provide COVID-19
+            vaccince. For example, your local hospital, Walgreens, CVS, etc.
+            provide COVID-19 vaccines to the public.
+          </p>
+        </div>
+
+        <button class="accordion">
+          <p>Is it normal to have side effects after COVID-19 vaccination?</p>
+        </button>
+        <div class="panel">
+          <p>
+            Yes, it is normal to have some side effects after recieving a
+            COVID-19 vaccine. The side effects include, fever, muscle pain,
+            tiredness, and nausea. The symptons should go away within 1-3 days.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <footer class="page-3-footer">
       <p>Brennan Day</p>
-      <a href="https://github.com/brenmarie/project-two"></a>
+      <a href="https://github.com/brenmarie/project-two"
+        >https://github.com/brenmarie/project-two</a
+      >
     </footer>
   </body>
 </html>
